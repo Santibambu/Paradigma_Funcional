@@ -19,7 +19,7 @@ def calcular_promedio_precio_productos(productos:list) -> int:
     for producto in productos:
         suma_precios += producto["precio"]
         cantidad_precios += 1
-        precio_promedio = suma_precios / cantidad_precios
+    precio_promedio = suma_precios / cantidad_precios
     return precio_promedio
 
 filtros_productos = {
@@ -45,7 +45,7 @@ def calcular_promedio_notas_estudiantes(estudiantes:list) -> int:
     for estudiante in estudiantes:
         suma_notas += estudiante["calificacion"]
         cantidad_notas += 1
-        nota_promedio = suma_notas / cantidad_notas
+    nota_promedio = suma_notas / cantidad_notas
     return nota_promedio
 
 filtros_estudiantes = {
